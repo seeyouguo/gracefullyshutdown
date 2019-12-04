@@ -1,0 +1,30 @@
+13:32:23.290688 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 452)
+    192.168.88.216.53416 > 192.168.88.231.http-alt: Flags [P.], cksum 0x9c43 (correct), seq 789:1189, ack 233, win 1027, options [nop,nop,TS val 1540097188 ecr 1196400893], length 400: HTTP, length: 400
+        GET /ping?id=26636337 HTTP/1.1
+        Host: 192.168.88.231:8080
+        Upgrade-Insecure-Requests: 1
+        Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+        User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 12_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/75.0.3770.103 Mobile/15E148 Safari/605.1
+        Accept-Language: en-sg
+        Accept-Encoding: gzip, deflate
+        Connection: keep-alive
+
+13:32:23.290766 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.88.231.http-alt > 192.168.88.216.53416: Flags [.], cksum 0xb77b (correct), ack 1189, win 2041, options [nop,nop,TS val 1196418054 ecr 1540097188], length 0
+13:32:23.293290 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 168)
+    192.168.88.231.http-alt > 192.168.88.216.53416: Flags [P.], cksum 0x89f6 (correct), seq 233:349, ack 1189, win 2048, options [nop,nop,TS val 1196418056 ecr 1540097188], length 116: HTTP, length: 116
+        HTTP/1.1 200
+        Content-Type: text/html;charset=UTF-8
+        Content-Length: 4
+        Date: Tue, 23 Jul 2019 05:32:23 GMT
+
+        pong[!http]
+13:32:23.302816 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.88.216.53416 > 192.168.88.231.http-alt: Flags [.], cksum 0xbad7 (correct), ack 349, win 1026, options [nop,nop,TS val 1540097225 ecr 1196418056], length 0
+13:32:36.341433 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.88.231.http-alt > 192.168.88.216.58495: Flags [F.], cksum 0x6727 (correct), seq 1118, ack 371, win 2053, options [nop,nop,TS val 1196431061 ecr 1538588734], length 0
+13:32:36.448003 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.88.216.58495 > 192.168.88.231.http-alt: Flags [.], cksum 0x7a06 (correct), ack 1119, win 2048, options [nop,nop,TS val 1538649443 ecr 1196431061], length 0
+13:32:53.582025 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 40)
+    192.168.88.216.53416 > 192.168.88.231.http-alt: Flags [R], cksum 0x4249 (correct), seq 1897322807, win 0, length 0
+
